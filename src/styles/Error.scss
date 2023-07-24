@@ -1,0 +1,38 @@
+.error {
+    color: #FF6060;
+    min-height: calc(100vh - 410px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    @media (max-width: 768px) {
+        min-height: calc(100vh - 360px);
+    }
+    &__404 {
+        font-size: 280px;
+        font-weight: 700;
+        margin: 0;
+        @media (max-width: 768px) {
+            font-size: 96px;
+        }
+    }
+    &__p {
+        font-weight: 500;
+        font-size: 36px;
+        margin-bottom: 40px;
+        @media (max-width: 768px) {
+            font-size: 18px;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        width: fit-content;
+        margin: 0px auto;
+        font-size: 18px;
+        color: #FF6060;
+        border-bottom: 1px solid #FF6060;
+        @media (max-width: 768px) {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.footer {
+    width: 100vw;
+    height: 130px;
+    transform: translateX(-80px);
+    background-color: black;
+    padding: 60px 0 30px 0;
+    margin-top: 50px;
+    @media (max-width: 768px) {
+        transform: translateX(-20px);
+    }
+    &__logo {
+        display: block;
+        margin: auto;
+    }
+    &__rights {
+        text-align: center;
+        margin-top: 40px;
+        color: white;
+        @media (max-width: 768px) {
+            padding-inline: 80px;
+            font-size: 18px;
+        }
+    }
+}

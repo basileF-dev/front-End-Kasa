@@ -1,0 +1,13 @@
+.scroll-bar-section {
+    padding: 5px 100px 45px 100px;
+    gap: 40px;
+    @media (max-width: 768px) {
+        padding: 0px 0px 20px 0px;
+    }
+    .container {
+        margin-top: 40px;
+        @media (max-width: 768px) {
+            margin-top: 20px;
+        }
+    }
+}

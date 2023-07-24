@@ -1,0 +1,27 @@
+.gallery {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    margin: 50px 0px;
+    padding: 40px;
+    @media (max-width: 768px) {
+        background-color: white;
+        padding: 0;
+        flex-direction: column;
+    }
+    &__article-link {
+        width: 30%;
+        margin: calc(10%/6);
+        transition: 0.2s ease-in-out;
+        @media (max-width: 1025px) {
+            width: 46.66%;       
+        }
+        @media (max-width: 768px) {
+            width: 100%;
+            margin: 0;
+            height: 225px;
+            margin-bottom: 20px;
+        }
+    }
+}

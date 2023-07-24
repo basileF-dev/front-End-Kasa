@@ -1,0 +1,39 @@
+.navbar {
+    max-width: 1240px;
+    margin: auto;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 768px) {
+        height: 90px;
+    }
+    &__home {
+        @media (max-width: 768px) {
+            width: 130px;
+        }
+    }
+    &__links {
+        display: flex;
+        gap: 60px;
+        @media (max-width: 768px) {
+            gap: 20px;
+        }
+        &__link {
+            text-decoration: none;
+            color: #FF6060;
+            font-size: 24px;
+            border-bottom: 1px solid white;
+            @media (max-width: 768px) {
+                font-size: 12px;
+                text-transform: uppercase;
+            }
+        }
+        &__link.active{
+            border-bottom: 1px solid #FF6060;
+        }
+        &__link:hover {
+            border-bottom: 1px solid #FF6060;
+        }
+    }
+}
