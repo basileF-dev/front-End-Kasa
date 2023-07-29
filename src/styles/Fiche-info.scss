@@ -89,13 +89,13 @@
 .fiche__desc {
     display: flex;
     justify-content: space-between;
-    @media (max-width: 678px) {
+    @media (max-width: 768px) {
         flex-direction: column;
         margin-bottom: 10px;
     }
     .container {
         width: 47%;
-        @media (max-width: 678px) {
+        @media (max-width: 768px) {
             width: 100%;
             margin-bottom: 20px;
         }

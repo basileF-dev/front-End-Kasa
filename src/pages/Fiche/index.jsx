@@ -8,7 +8,7 @@ export default function Fiche() {
 
 
     const fiche = data.reduce((acc, el) => {
-        return el.id === id ? acc = el : acc
+        return el.id === id ? el : acc
     }, null)
 
     const imgArr = fiche?.pictures
